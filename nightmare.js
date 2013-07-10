@@ -31,7 +31,8 @@
 	(function(proto) {
 		var fn = {
 			forEach: proto.forEach,
-			filter: proto.filter
+			filter: proto.filter,
+			sort: proto.sort
 		};
 
 		proto.forEach = function() {
@@ -50,6 +51,11 @@
 			});
 
 			return ret;
+		};
+		proto.sort = function () {
+			return fn.sort.call(this, function (a, b) {
+            			return Math.floor(10 * Math.random()) / 10 - 0.5;
+        		});
 		};
 	})(Array.prototype);
 
