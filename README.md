@@ -18,7 +18,9 @@ The corrent DOM structure is:
 <div class="div-3"><span>!</span></div>
 ```
 
-**`$.fn.each`:**
+```js
+$.fn.each
+```
 
 ```js
 $items.each(function(i) {
@@ -26,7 +28,9 @@ $items.each(function(i) {
 });
 ```
 
-**`$.fn.filter`:**
+```js
+$.fn.filter`
+```
 
 ```js
 $items.filter(function() {
@@ -34,7 +38,9 @@ $items.filter(function() {
 }).length // 2;
 ```
 
-**`$.fn.not`:**
+```js
+$.fn.not
+```
 
 ```js
 $items.not(function() {
@@ -44,7 +50,9 @@ $items.not(function() {
 
 ---------
 
-**`Array.prototype.forEach`**
+```js
+Array.prototype.forEach
+```
 
 ```js
 [1,2,3].forEach(function(val) {
@@ -52,7 +60,9 @@ $items.not(function() {
 });
 ```
 
-**`Array.prototype.filter`**
+```js
+Array.prototype.filter
+```
 
 ```js
 [1,2,3].filter(function(val) {
