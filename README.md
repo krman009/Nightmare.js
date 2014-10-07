@@ -29,7 +29,7 @@ $items.each(function(i) {
 ```
 
 ```js
-$.fn.filter`
+$.fn.filter
 ```
 
 ```js
